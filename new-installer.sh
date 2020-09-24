@@ -151,8 +151,8 @@ function addServer {
 	if [ -f /opt/iptvpanel2/bin/ffprobe ]; then
 		echo -e "${BGreen}Binaries Ok!${Reset}";
 	else
-		wget -O /opt/iptvpanel2/bin/ffprobe hhttps://github.com/iptvpanel/iptvpanel.net/raw/master/ffprobe  >> /dev/null 2>&1
-		wget -O /opt/iptvpanel2/bin/ffmpeg https://github.com/iptvpanel/iptvpanel.net/raw/master/ffmpeg  >> /dev/null 2>&1
+		wget -O /opt/iptvpanel2/bin/ffprobe https://github.com/xxnnxxnn/iptvpanel.net/raw/master/ffprobe  >> /dev/null 2>&1
+		wget -O /opt/iptvpanel2/bin/ffmpeg https://github.com/xxnnxxnn/iptvpanel.net/raw/master/ffmpeg  >> /dev/null 2>&1
 		chmod a+x /opt/iptvpanel2/bin/ffprobe >> /dev/null 2>&1
 		chmod a+x /opt/iptvpanel2/bin/ffmpeg >> /dev/null 2>&1
 		ln -s /usr/bin/rtmpdump /opt/iptvpanel2/bin
